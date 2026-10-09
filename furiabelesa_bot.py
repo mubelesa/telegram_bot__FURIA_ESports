@@ -2,8 +2,7 @@ from telegram import Update
 from telegram.ext import ApplicationBuilder, CommandHandler, ContextTypes
 import requests
 
-PANDASCORE_TOKEN = "_G0vK5dIdMMlnYykY4OoWJWT4mxsOmlePzIc71lOG31jKX9t35M"  # Token de acesso à API da Pandascore (substitua pelo seu token)
-# ⚠️ Lembre-se de manter o token em segredo e não expô-lo publicamente.
+PANDASCORE_TOKEN = "token"  # Token de acesso à API da Pandascore
 TEAM_ID = 1656  # ID da FURIA na Pandascore (confirmado)
 
 headers = {
